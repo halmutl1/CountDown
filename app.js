@@ -25,8 +25,10 @@ const countDown = () =>{
     h.innerText = formatCountDown(hours);
     m.innerText = formatCountDown(minutes);
     s.innerText = formatCountDown(seconds);
+
+    return;
 }
-setInterval(countDown, 1000)
+setInterval(countDown); 
 
 const formatCountDown = (time) =>{
     return time < 10 ? `0${time}` : time;
