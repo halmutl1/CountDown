@@ -7,7 +7,10 @@ const facebookIcon = document.getElementById('facebookIcon');
 const pintIcon = document.getElementById('pintIcon');
 const instgIcon = document.getElementById('instgIcon');
 
-const newYears = '1 jan 2024';
+const newYears = '15 june 2023';
+
+
+
 
 const countDown = () =>{    
     const newYearsDate = new Date(newYears);
@@ -18,8 +21,8 @@ const countDown = () =>{
 
     const days = Math.floor(totalSeconds / 3600 /24);
     const hours = Math.floor((totalSeconds/3600) % 24);
-    const minutes = Math.floor((totalSeconds/60) %60);
-    const seconds = Math.floor(totalSeconds %60);
+    const minutes = Math.floor((totalSeconds/60) % 60);
+    const seconds = Math.floor(totalSeconds % 60);
 
     d.innerText = formatCountDown(days);
     h.innerText = formatCountDown(hours);
