@@ -100,18 +100,15 @@ header{
     rotate: 180deg;
 
 }
+
 footer{
     background-image: url(./images/pattern-hills.svg);
-    padding: 60px;
+    padding: 45px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
-    display: flex;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .attribution{
     margin-top: 15px;
@@ -131,7 +128,7 @@ footer{
     justify-content:center;
     align-items: center;
     gap: 20px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 img{
     object-fit: contain;
