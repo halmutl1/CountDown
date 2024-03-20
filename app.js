@@ -7,7 +7,7 @@ const facebookIcon = document.getElementById('facebookIcon');
 const pintIcon = document.getElementById('pintIcon');
 const instgIcon = document.getElementById('instgIcon');
 
-const newYears = '16 july 2023';
+const newYears = '1 january 2024';
 
 
 
